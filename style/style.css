@@ -6,6 +6,7 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings: "width" 100;
+    background-color: #F1F1F3;
 }
 button{
     font-family: 'Fira Sans', sans-serif;
@@ -59,11 +60,82 @@ nav button {
 .green-clr{
     padding: 17px 34px;
     border-radius: 8px;
-    background-color: #006A50;
+    
     border: none;
     font-weight: bold;
     color: white;
-    
-
+}
+.green-bg{
+    background-color: #006A50;
+}
+.same-head{
+    font-weight: bold;
+    font-size: 30px;
 }
 
+.pillars-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    /* border-color: #0E0E0E;
+    opacity: 15%; */
+}
+.pillars{
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.pillars-dsp{
+    display: flex;
+    gap: 10px;
+    color: #0E0E0E;
+    opacity: 70%;
+    font-size: 13px;
+    font-weight: normal;
+
+}
+.vision1{
+    background-color: rgb(84, 144, 245, 0.2)
+    /* opacity: 20%; */
+}
+.vision2{
+    background-color: #C6E4D6;
+}
+.vision3{
+    background-color: #F7EBCF;
+}
+.lrn1{
+    background-color: #5490F5;
+}
+.lrn2{
+    background-color: #09A15C
+}
+.lrn3{
+    background-color: #FFC239;
+}
+.under{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.recent-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.satelite-pic{
+    height: 300px;
+    width: 400px;
+    border-radius: 24px;
+}
+.recent{
+    display: flex;
+
+}
+.recent-container{
+    margin-left: 20px;
+}

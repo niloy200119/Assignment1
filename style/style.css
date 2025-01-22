@@ -68,6 +68,12 @@ nav button {
 .green-bg{
     background-color: #006A50;
 }
+.bttn:hover{
+    background-color: #f10a0af2;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
 .same-head{
     font-weight: bold;
     font-size: 30px;
@@ -119,7 +125,8 @@ nav button {
 .under{
     background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: top left;
+    
 }
 .recent-title{
     font-size: 25px;
@@ -127,8 +134,8 @@ nav button {
     color: #0E0E0E;
     opacity: 80%;
 }
-.satelite-pic{
-    height: 300px;
+.satellite-pic{
+    height: 350px;
     width: 400px;
     border-radius: 24px;
 }
@@ -137,5 +144,34 @@ nav button {
 
 }
 .recent-container{
-    margin-left: 20px;
+    margin-left: 20px;;
+}
+.donate-msg{
+    display: flex;
+    max-width: 1100px;
+}
+.donate-wall{
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+
+form{
+    height: 50px;
+      border-radius: 5px;
+      background-color: white;
+      display: block;
+      max-width: 1000px;
+      padding: 8px 20px;
+      margin-bottom: 24px;
+      border: none;
+
+}
+.subs{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding:  50px  80px;
+    border-radius: 24px;
 }

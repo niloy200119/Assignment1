@@ -38,6 +38,7 @@ nav button {
     background-color: #C6E4D6;
     padding:  80px  100px;
     border-radius: 24px;
+    margin-bottom: 30px;
 
 }
 .banner-title{
@@ -174,4 +175,78 @@ form{
     background-color: #C6E4D6;
     padding:  50px  80px;
     border-radius: 24px;
+    margin: 20px;
+}
+.dnd-tk{
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    opacity: 80%;
+    
+}
+.dnd-tk:hover{
+    background-color: #C6E4D6;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.mula{
+    width: 95%;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+.dnd-btn{
+    margin: 40px;
+}
+.nws{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nws-txt{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+
+}
+.alu{
+    width: 450px;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px 0px 0px 8px;
+
+}
+.lst-bttn{
+    padding: 17px 34px;
+    border-radius: 0 8px 8px 0px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: #006A50;
+    margin-bottom: 40px;
+}
+.lst-end{
+    padding: 10px;
+    gap: 20px;
+    display: flex;
+    margin-bottom: 40px;
+}
+hr{
+    border: 1px solid #0E0E0E;
+    width: 1000px;
+    opacity: 20%;
+
+    margin-bottom: 40px;
 }

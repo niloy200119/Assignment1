@@ -227,6 +227,7 @@ form{
     font-size: 18px;
     border-radius: 8px 0px 0px 8px;
 
+
 }
 .lst-bttn{
     padding: 17px 34px;
@@ -235,7 +236,6 @@ form{
     font-weight: bold;
     color: white;
     background-color: #006A50;
-    margin-bottom: 40px;
 }
 .lst-end{
     padding: 10px;
@@ -247,6 +247,11 @@ hr{
     border: 1px solid #0E0E0E;
     width: 1000px;
     opacity: 20%;
-
+    margin-bottom: 40px;
+}
+.together{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 40px;
 }
